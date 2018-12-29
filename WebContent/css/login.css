@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+
+body{
+	background: url("../img/cloud.jpg") 0 bottom repeat-x #049ec4;
+	animation: cloud 20s linear infinite;
+}
+
+/* CSS3 动画 */
+@keyframes cloud{
+	from{background-position: 0px 100%}
+	to{background-position: 600px 100%}
+}
+
+form{
+	border: 1px solid #808080; 
+	background-color: white;
+	width: 350px;
+	border-radius: 10px;
+	margin: 120px auto;
+	padding-bottom: 20px;
+	filter:alpha(opacity=60);
+}
+
+h1{
+	text-align: center;
+}
+
+input{
+	display: block;
+	margin: 10px auto;
+	border: 1px solid #0A6998;
+	border-radius: 5px;
+	padding: 8px;
+	width: 250px;
+}
+
+input[type='submit']{
+	background-color: #4a77d4;
+	color: white;
+	font-weight: bold;
+}
+
